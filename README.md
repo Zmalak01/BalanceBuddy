@@ -5,12 +5,12 @@ A simple, menu-driven C++ console app to track expenses by category and manage b
 
 NOTE: Run on online compilers (example: gdb)
 
-* ✅ Transfer **Savings → Checking** now actually updates balances
-* ✅ Menu “invalid option” message says **1 → 12** (not 11)
+* Transfer **Savings → Checking** now actually updates balances
+* Menu “invalid option” message says **1 → 12** (not 11)
 
 ---
 
-## ✨ Features
+## Features
 
 * Set / view / edit **Checking** & **Savings** balances
 * Add an expense (category + amount) and deduct from a chosen account
@@ -24,7 +24,7 @@ NOTE: Run on online compilers (example: gdb)
 
 ---
 
-## 🧰 Tech
+##  Tech
 
 * **Language:** C++ (C++11+ compatible)
 * **Stdlib:** `<iostream>`, `<string>`, `<iomanip>`
@@ -32,8 +32,8 @@ NOTE: Run on online compilers (example: gdb)
 
 ---
 
-## 📦 Getting Started
-## 🕹️ Usage
+
+##  Usage
 
 When you run the app, you’ll see:
 
@@ -57,7 +57,7 @@ Type the option number and press **Enter**.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -66,7 +66,7 @@ Type the option number and press **Enter**.
 ```
 
 
-## ⚠️ Known Limitations (intentional in this bugfix-only build)
+## Known Limitations (intentional in this bugfix-only build)
 
 * No data persistence (everything is in memory only)
 * Monetary values use `float` (can round slightly)
